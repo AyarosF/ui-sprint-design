@@ -1,6 +1,6 @@
 .tabs {
   position: relative;
-  min-height: 300px; 
+  min-height: 300px;
   clear: both;
   margin: 35px 0 25px;
   background: white;
@@ -26,10 +26,11 @@
     -webkit-transition: background-color .17s linear;
   }
   label:hover {
-    background:rgb(123, 140, 149);
+    background: #581F18;
   }
   [type=radio]{
-    display: none;
+    display: flex;
+    justify-content: flex-start;
   }
 }
 
@@ -41,18 +42,17 @@
   background: white;
   right: 0;
   bottom: 0;
-  padding: 20px;
+  padding: 40px;
   padding-top: 30px;
   border: 1px solid #ccc;
   -webkit-transition: opacity .6s linear;
   opacity: 1;
 }
 [type=radio]:checked ~ label {
-  background: rgb(108, 147, 161);
+  background: #581F18;
   border-bottom: 1px solid white;
   z-index: 2;
 }
 [type=radio]:checked ~ label ~ .content {
   z-index: 1;
-  opacity: 1;
 }

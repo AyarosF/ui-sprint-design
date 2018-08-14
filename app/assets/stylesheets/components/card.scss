@@ -18,22 +18,27 @@
 
 .card-avatar {
   padding-left: 82px;
-  margin-top: -80px;
+  margin-top: -60px;
 }
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
 }
 .card-name {
-/*    margin: 10px;*/
+
     font-family: Roboto;
     font-weight: 700;
     font-size: 1.8em;
     text-align: center
 }
+
+.card-name h5 {
+  font-weight: 500;
+}
+
 .card-description {
     /*margin: 5px;*/
     margin-top:20px;
     font-size: 1em;
-    text-align: center;
+    text-align: justify;
 }
