@@ -1,0 +1,19 @@
+.footer {
+  background-color: blue;
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    align-items: center;
+    list-style: none;
+    margin-top: -10px;
+  }
+}
+
+.copyright {
+    text-align: center;
+    font-weight:bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#777;
+}

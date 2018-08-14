@@ -1,0 +1,30 @@
+#contact {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #581F18;
+    h3 {
+        text-transform: uppercase;
+        margin: 0 auto 20px auto;
+        font-weight: normal;
+        width: 400px;
+        border-bottom: 1px solid #694A38;
+        padding-bottom: 20px;
+    }
+}
+
+form {
+    margin: 60px 0 20px 0;
+}
+
+label {
+    font-size: 20px;
+    margin-right: 10px;
+    color:#777;
+}
+input[type="text"] {
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
