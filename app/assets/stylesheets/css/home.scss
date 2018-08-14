@@ -1,3 +1,16 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.cards-container {
+  background-color: rgb(240, 240, 240);
+  margin-top: 100px;
+  h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-family: 'Open Sans Condensed';
+    font-size: 30px;
+  }
+}
