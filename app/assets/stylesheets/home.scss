@@ -24,8 +24,10 @@
   display: flex;
   margin-top: 200px;
   margin-bottom: 200px;
+  iframe{
+    border: 3px solid rgb(73, 70, 83);
+  }
 }
-
 
 .about-container {
   text-align: center;
