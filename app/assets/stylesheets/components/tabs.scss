@@ -15,7 +15,7 @@
     height: 50px;
     width: 200px;
     font-size: 18px;
-    background: #eee;
+    background: #ccc;
     padding: 10px;
     border: 1px solid #ccc;
     margin-left: -1px;
@@ -24,6 +24,7 @@
     left: 1px;
     top: -52px;
     -webkit-transition: background-color .17s linear;
+    cursor: pointer;
   }
   label:hover {
     background: #581F18;
