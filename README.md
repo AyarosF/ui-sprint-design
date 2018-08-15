@@ -1,24 +1,29 @@
-# README
+# UI Sprint Design - projet THP 15 août 2018
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## L'application
 
-Things you may want to cover:
+### Heroku
 
-* Ruby version
+Vous trouverez l'application hébergée sur Heroku au lien suivant : https://ui-sprint-design-thp.herokuapp.com
 
-* System dependencies
+### En local
 
-* Configuration
+Après avoir cloné le repo, run :
 
-* Database creation
+- `bundle install`
 
-* Database initialization
+- `rails db:create`
 
-* How to run the test suite
+- `rails db:migrate`
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+## Le projet
+
+Un joli front css sans librairie...
+
+Y a juste à admirer !
+
+## La team
+
+Ce programme est made in Strasbourg, by Soraya FRUCTUOSO, Samaneh VAEZI et Hugo PAYET avec amour ! Bonne correction les amis :kissing_heart:

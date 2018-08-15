@@ -22,10 +22,45 @@
 
 .infos{
   display: flex;
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
 
 
 .about-container {
   text-align: center;
   margin-left: 40px;
+  margin-top: 100px;
+  h2 {
+    font-size: 38px;
+    margin-bottom: 50px;
+    color: rgb(45,49,66);
+  }
+  h3 {
+    font-weight: 500;
+    line-height: 2;
+    font-size: 25px;
+    color: rgb(88, 84, 85);
+  }
+  hr {
+    color: grey;
+  }
+  p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 2;
+    color: rgb(73, 70, 83);
+  }
+}
+
+.video-container {
+  margin-right: 50px;
+  text-align: center;
+  margin-top: 100px;
+  h3 {
+    font-size: 20px;
+  }
+  span {
+    color: rgb(88, 7, 20);
+  }
 }
